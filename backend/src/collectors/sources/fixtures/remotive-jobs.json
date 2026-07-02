@@ -1,0 +1,31 @@
+{
+  "job-count": 2,
+  "jobs": [
+    {
+      "id": 1987001,
+      "url": "https://remotive.com/remote-jobs/software-dev/senior-typescript-developer-1987001",
+      "title": "Senior TypeScript Developer",
+      "company_name": "Initech",
+      "category": "Software Development",
+      "tags": ["typescript", "node", "aws"],
+      "job_type": "full_time",
+      "publication_date": "2026-06-10T08:15:00",
+      "candidate_required_location": "Worldwide",
+      "salary": "$60,000 - $84,000/year",
+      "description": "<p>Join our platform team building public APIs.</p>"
+    },
+    {
+      "id": 1987002,
+      "url": "https://remotive.com/remote-jobs/software-dev/python-engineer-1987002",
+      "title": "Python Engineer",
+      "company_name": "Hooli",
+      "category": "Software Development",
+      "tags": ["python"],
+      "job_type": "full_time",
+      "publication_date": "2026-06-09T10:00:00",
+      "candidate_required_location": "Europe",
+      "salary": "",
+      "description": "<p>Work on data pipelines.</p>"
+    }
+  ]
+}

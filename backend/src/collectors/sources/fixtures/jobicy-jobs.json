@@ -1,0 +1,23 @@
+{
+  "jobCount": 1,
+  "jobs": [
+    {
+      "id": 145001,
+      "url": "https://jobicy.com/jobs/145001-senior-react-developer",
+      "jobSlug": "145001-senior-react-developer",
+      "jobTitle": "Senior React Developer",
+      "companyName": "Veeva",
+      "jobIndustry": ["Web & App Development"],
+      "jobType": ["full-time"],
+      "jobGeo": "Europe",
+      "jobLevel": "Senior",
+      "jobExcerpt": "Build delightful UIs for our design system.",
+      "jobDescription": "We need a Senior React developer with strong TypeScript skills.",
+      "pubDate": "2026-06-08T11:30:14",
+      "salaryMin": 60000,
+      "salaryMax": 84000,
+      "salaryCurrency": "USD",
+      "salaryPeriod": "year"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "list": [
+    {
+      "id": 1000166290,
+      "href": "/vacancies/1000166290",
+      "title": "Старший инженер по автоматизации тестирования / Senior AQA",
+      "remoteWork": true,
+      "salaryQualification": { "title": "Старший (Senior)", "href": "/vacancies?qid=5" },
+      "qualification": "Senior",
+      "publishedDate": { "date": "2026-06-15T16:52:22+03:00", "title": "15 июня" },
+      "company": { "title": "Хайтек", "href": "/companies/hightech" },
+      "salary": { "from": 260000, "to": 380000, "currency": "rur", "formatted": "от 260 000 до 380 000 ₽" },
+      "skills": [
+        { "title": "Python", "href": "/vacancies/programmist_python" },
+        { "title": "Selenium", "href": "/vacancies/skills/selenium" },
+        { "title": "CI/CD", "href": "/vacancies/skills/ci-cd-methodologies" }
+      ]
+    },
+    {
+      "id": 1000166291,
+      "href": "/vacancies/1000166291",
+      "title": "Middle Frontend Developer",
+      "remoteWork": true,
+      "salaryQualification": { "title": "Средний (Middle)", "href": "/vacancies?qid=4" },
+      "qualification": "Middle",
+      "publishedDate": { "date": "2026-06-14T10:00:00+03:00", "title": "14 июня" },
+      "company": { "title": "Контур", "href": "/companies/kontur" },
+      "salary": { "from": null, "to": null, "currency": null, "formatted": "" },
+      "skills": ["React", "TypeScript", "Redux"]
+    },
+    {
+      "id": 1000166292,
+      "href": "/vacancies/1000166292",
+      "title": "Офисный Java-разработчик (Москва)",
+      "remoteWork": false,
+      "salaryQualification": { "title": "Старший (Senior)", "href": "/vacancies?qid=5" },
+      "qualification": "Senior",
+      "publishedDate": { "date": "2026-06-13T09:00:00+03:00", "title": "13 июня" },
+      "company": { "title": "Сбер", "href": "/companies/sber" },
+      "salary": { "from": 300000, "to": null, "currency": "rur", "formatted": "от 300 000 ₽" },
+      "skills": [{ "title": "Java", "href": "/vacancies/programmist_java" }]
+    }
+  ],
+  "meta": { "totalResults": 3, "perPage": 100, "currentPage": 1 }
+}

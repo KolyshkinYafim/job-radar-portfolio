@@ -1,0 +1,114 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Vacancy {
+  id           String      @id @default(cuid())
+  source       String   // "tg:@channel", "justjoin", "remoteok", ...
+  externalId   String?
+  url          String?
+  title        String
+  company      String?
+  rawText      String
+  stack        String[]
+  salaryMin    Int?
+  salaryMax    Int?
+  currency     String?
+  remote       String?  // "remote-eu" | "remote-global" | "hybrid" | "onsite"
+  seniority    String?  // "senior" | "mid" | "junior" | "lead"
+  dedupHash    String   @unique
+  postedAt     DateTime?
+  createdAt    DateTime @default(now())
+  status       String   @default("new") // new | filtered_out | queued | scored | notified | error
+  goldenLabel  String?  // null | yes | maybe | no — hand labels for eval
+  matches      UserMatch[]
+}
+
+model Channel {
+  id       String    @id @default(cuid())
+  kind     String    // "tg" | "site"
+  handle   String    @unique
+  enabled  Boolean   @default(true)
+  lastSeen DateTime?
+}
+
+model SourceConfig {
+  name      String   @id // collector name, e.g. "greenhouse", "remoteok"
+  enabled   Boolean  @default(true)
+  updatedAt DateTime @updatedAt
+}
+
+model User {
+  id        String       @id @default(cuid())
+  email     String       @unique
+  createdAt DateTime     @default(now())
+  tgChatId  String?      @unique
+  tgUserId  String?      @unique
+  profile   UserProfile?
+  matches   UserMatch[]
+  sessions  Session[]
+  llmCalls  LlmCall[]
+}
+
+model Session {
+  id        String    @id @default(cuid())
+  userId    String
+  user      User      @relation(fields: [userId], references: [id])
+  token     String    @unique
+  expiresAt DateTime
+  claimedAt DateTime?
+}
+
+model UserProfile {
+  id           String   @id @default(cuid())
+  userId       String   @unique
+  user         User     @relation(fields: [userId], references: [id])
+  cvText       String
+  coreStack    String[]
+  strongPlus   String[]
+  redFlags     String[]
+  seniority    String?
+  locationPref String[]
+  salaryMin    Int?
+  salaryTarget Int?
+  updatedAt    DateTime @updatedAt
+}
+
+model UserMatch {
+  id         String   @id @default(cuid())
+  userId     String
+  user       User     @relation(fields: [userId], references: [id])
+  vacancyId  String
+  vacancy    Vacancy  @relation(fields: [vacancyId], references: [id])
+  score      Int
+  location   String?
+  reasonsPro String[]
+  reasonsCon String[]
+  redFlags   String[] @default([])
+  verdict    String?
+  appStatus  String?
+  model      String
+  createdAt  DateTime @default(now())
+
+  @@unique([userId, vacancyId])
+}
+
+model LlmCall {
+  id               String   @id @default(cuid())
+  userId           String?
+  user             User?    @relation(fields: [userId], references: [id])
+  taskType         String
+  model            String
+  promptTokens     Int
+  completionTokens Int
+  latencyMs        Int
+  ok               Boolean
+  createdAt        DateTime @default(now())
+}

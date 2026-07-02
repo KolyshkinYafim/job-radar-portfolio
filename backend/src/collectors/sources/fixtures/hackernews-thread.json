@@ -1,0 +1,30 @@
+{
+  "id": 48357725,
+  "title": "Ask HN: Who is hiring? (June 2026)",
+  "children": [
+    {
+      "id": 1001,
+      "author": "acme",
+      "created_at": "2026-06-01T16:00:00.000Z",
+      "text": "CodeWeavers | St Paul, MN, USA | Full Time | REMOTE | C developer <a href=\"https:&#x2F;&#x2F;codeweavers.com&#x2F;jobs\">jobs</a>"
+    },
+    {
+      "id": 1002,
+      "author": "beta",
+      "created_at": "2026-06-01T16:05:00.000Z",
+      "text": "Acme GmbH | Berlin, Germany | REMOTE (Europe) | Senior Backend Engineer, Go and Postgres"
+    },
+    {
+      "id": 1003,
+      "author": "short",
+      "created_at": "2026-06-01T16:06:00.000Z",
+      "text": "hi"
+    },
+    {
+      "id": 1004,
+      "author": "onsiteco",
+      "created_at": "2026-06-01T16:07:00.000Z",
+      "text": "Onsite Corp | New York, NY | Onsite only | Software Engineer working with Java"
+    }
+  ]
+}

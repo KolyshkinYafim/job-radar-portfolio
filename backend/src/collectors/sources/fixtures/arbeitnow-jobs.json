@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "slug": "senior-php-developer-berlin-123456",
+      "company_name": "Wunderflats",
+      "title": "Senior PHP Developer",
+      "description": "<p>Build rental platform services with Symfony.</p>",
+      "remote": true,
+      "url": "https://www.arbeitnow.com/jobs/companies/wunderflats/senior-php-developer-berlin-123456",
+      "tags": ["PHP", "Symfony"],
+      "job_types": ["full-time"],
+      "location": "Berlin",
+      "created_at": 1765012345
+    },
+    {
+      "slug": "qa-engineer-munich-654321",
+      "company_name": "Allianz",
+      "title": "QA Engineer",
+      "description": "Own the test automation suite.",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/allianz/qa-engineer-munich-654321",
+      "tags": ["QA", "Cypress"],
+      "job_types": ["full-time"],
+      "location": "Munich",
+      "created_at": 1765098745
+    }
+  ],
+  "links": {
+    "next": null
+  },
+  "meta": {
+    "current_page": 1
+  }
+}

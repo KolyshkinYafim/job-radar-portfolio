@@ -1,0 +1,33 @@
+{
+  "jobs": [
+    {
+      "id": 90001,
+      "title": "Full-stack Engineer",
+      "url": "https://landing.jobs/jobs/90001",
+      "currency_code": "EUR",
+      "gross_salary_low": 45000,
+      "gross_salary_high": 65000,
+      "published_at": "2026-06-07T09:00:00.000Z",
+      "role_description": "Build the marketplace platform.",
+      "main_requirements": "Node.js, React, PostgreSQL",
+      "nice_to_have": "AWS, Terraform",
+      "remote": true,
+      "relocation_paid": false,
+      "tags": ["Node.js", "React"],
+      "locations": [{ "city": "Lisbon", "country_code": "PT" }]
+    },
+    {
+      "id": 90002,
+      "title": "DevOps Engineer",
+      "currency_code": null,
+      "gross_salary_low": null,
+      "gross_salary_high": null,
+      "published_at": "2026-06-06T10:00:00.000Z",
+      "role_description": "Own the CI/CD pipelines.",
+      "remote": false,
+      "relocation_paid": true,
+      "tags": [],
+      "locations": [{ "city": "Porto", "country_code": "PT" }]
+    }
+  ]
+}

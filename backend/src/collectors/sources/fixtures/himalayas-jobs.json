@@ -1,0 +1,32 @@
+{
+  "jobs": [
+    {
+      "id": "70000123",
+      "title": "Senior Backend Engineer",
+      "companyName": "Acme Robotics",
+      "applicationLink": "https://himalayas.app/companies/acme-robotics/jobs/senior-backend-engineer",
+      "minSalary": 90000,
+      "maxSalary": 120000,
+      "currency": "EUR",
+      "salaryPeriod": "yearly",
+      "locationRestrictions": ["Europe"],
+      "timezoneRestrictions": ["UTC+1"],
+      "seniority": ["Senior"],
+      "categories": ["Backend", "Node.js"],
+      "pubDate": 1765360800,
+      "excerpt": "Build distributed systems.",
+      "description": "We are hiring a Senior Backend Engineer to design event-driven services."
+    },
+    {
+      "id": "70000456",
+      "title": "Product Designer",
+      "companyName": "Globex",
+      "applicationLink": "https://himalayas.app/companies/globex/jobs/product-designer",
+      "locationRestrictions": [],
+      "seniority": ["Mid-level"],
+      "categories": ["Design"],
+      "pubDate": 1765447200,
+      "excerpt": "Own the design system."
+    }
+  ]
+}

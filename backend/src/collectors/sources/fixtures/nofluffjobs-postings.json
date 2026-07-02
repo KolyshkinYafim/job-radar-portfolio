@@ -1,0 +1,54 @@
+{
+  "postings": [
+    {
+      "id": "senior-backend-engineer-acme-software-remote",
+      "name": "Acme Software",
+      "title": "Senior Backend Engineer",
+      "url": "senior-backend-engineer-acme-software-remote",
+      "category": "backend",
+      "seniority": ["Senior"],
+      "fullyRemote": false,
+      "location": {
+        "places": [
+          {
+            "country": { "code": "POL", "name": "Poland" },
+            "city": "Amsterdam",
+            "url": "senior-backend-engineer-acme-software-warszawa"
+          }
+        ],
+        "fullyRemote": true
+      },
+      "salary": {
+        "from": 22000.0,
+        "to": 30000.0,
+        "type": "b2b",
+        "currency": "PLN",
+        "disclosedAt": "VISIBLE",
+        "flexibleUpperBound": false
+      },
+      "posted": 1781532259715
+    },
+    {
+      "id": "junior-frontend-developer-pixel-labs-krakow",
+      "name": "Pixel Labs",
+      "title": "Junior Frontend Developer",
+      "url": "junior-frontend-developer-pixel-labs-krakow",
+      "category": "frontend",
+      "seniority": ["Junior", "Trainee"],
+      "fullyRemote": false,
+      "location": {
+        "places": [
+          {
+            "country": { "code": "POL", "name": "Poland" },
+            "city": "Kraków",
+            "url": "junior-frontend-developer-pixel-labs-krakow"
+          }
+        ],
+        "fullyRemote": false
+      },
+      "posted": 1781000000000
+    }
+  ],
+  "totalCount": 2,
+  "totalPages": 1
+}

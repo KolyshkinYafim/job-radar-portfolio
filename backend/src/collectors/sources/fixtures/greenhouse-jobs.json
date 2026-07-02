@@ -1,0 +1,22 @@
+{
+  "jobs": [
+    {
+      "id": 4555001,
+      "title": "Backend Engineer, Payments",
+      "updated_at": "2026-06-05T12:00:00-04:00",
+      "absolute_url": "https://acme-analytics.example.com/jobs/listing/backend-engineer-payments/4555001",
+      "location": { "name": "Remote, Europe" },
+      "departments": [{ "name": "Engineering" }],
+      "content": "<p>Work on the payments core. We use <strong>Ruby</strong> and Go.</p>"
+    },
+    {
+      "id": 4555002,
+      "title": "Site Reliability Engineer",
+      "updated_at": "2026-06-04T09:30:00-04:00",
+      "absolute_url": "https://acme-analytics.example.com/jobs/listing/site-reliability-engineer/4555002",
+      "location": { "name": "New York, Onsite" },
+      "departments": [{ "name": "Infrastructure" }],
+      "content": "<p>Keep the platform up.</p>"
+    }
+  ]
+}

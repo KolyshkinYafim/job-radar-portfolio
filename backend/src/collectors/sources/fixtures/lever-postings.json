@@ -1,0 +1,29 @@
+[
+  {
+    "id": "a1b2c3d4-0001",
+    "text": "Senior Product Engineer",
+    "categories": {
+      "team": "Engineering",
+      "commitment": "Full-time",
+      "location": "Remote - Europe"
+    },
+    "description": "<div>Ship features across the stack.</div>",
+    "descriptionPlain": "Ship features across the stack.",
+    "additional": "<div>Benefits: equity, remote budget.</div>",
+    "additionalPlain": "Benefits: equity, remote budget.",
+    "hostedUrl": "https://jobs.lever.co/vertex-robotics/a1b2c3d4-0001",
+    "applyUrl": "https://jobs.lever.co/vertex-robotics/a1b2c3d4-0001/apply",
+    "createdAt": 1765400000000
+  },
+  {
+    "id": "a1b2c3d4-0002",
+    "text": "Support Engineer",
+    "categories": {
+      "commitment": "Full-time",
+      "location": "New York (Onsite)"
+    },
+    "description": "<div>Help customers <strong>win</strong>.</div>",
+    "hostedUrl": "https://jobs.lever.co/vertex-robotics/a1b2c3d4-0002",
+    "createdAt": 1765400100000
+  }
+]

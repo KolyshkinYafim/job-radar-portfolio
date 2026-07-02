@@ -1,0 +1,60 @@
+{
+  "jobs": [
+    {
+      "id": 52461,
+      "title": "Business Analyst",
+      "company": "Лоция",
+      "format": "удалённо",
+      "level": "lead",
+      "salary": "от 250 000 ₽",
+      "salary_display": "от 250 000 ₽",
+      "category": "analytics",
+      "industry": "it_tech",
+      "created_at": "2026-06-15T14:06:57Z",
+      "company_icon": "/static/uploads/_20250519153155.webp"
+    },
+    {
+      "id": 52400,
+      "title": "Senior Backend Developer",
+      "company": "NDA",
+      "format": "офис",
+      "level": "senior",
+      "salary": "~ 273 175 ₽",
+      "salary_display": "~ 273 175 ₽",
+      "category": "development",
+      "industry": "it_tech",
+      "created_at": "2026-06-14T09:30:00Z",
+      "company_icon": null
+    },
+    {
+      "id": 52390,
+      "title": "Junior Frontend Developer",
+      "company": "Маяк ИТ",
+      "format": "удалённо",
+      "level": "junior",
+      "salary": "100 000 – 150 000 ₽",
+      "salary_display": "100 000 – 150 000 ₽",
+      "category": "development",
+      "industry": "it_tech",
+      "created_at": "2026-06-13T08:00:00Z",
+      "company_icon": null
+    },
+    {
+      "id": 52380,
+      "title": "Product Manager",
+      "company": "Гибрид Корп",
+      "format": "гибрид",
+      "level": "middle",
+      "salary": null,
+      "salary_display": null,
+      "category": "management",
+      "industry": "it_tech",
+      "created_at": "2026-06-12T08:00:00Z",
+      "company_icon": null
+    }
+  ],
+  "has_more": true,
+  "total_count": 11630,
+  "page": 1,
+  "limit": 100
+}

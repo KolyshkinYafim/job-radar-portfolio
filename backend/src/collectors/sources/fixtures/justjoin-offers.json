@@ -1,0 +1,126 @@
+{
+  "data": [
+    {
+      "guid": "c59dc867-d50e-44c6-b70d-c8c65b8e710a",
+      "slug": "codetwo-sp-z-o-o-sp-k--web-developer-jelenia-gora-javascript",
+      "title": "Web Developer",
+      "requiredSkills": [
+        "CSS",
+        "JavaScript",
+        "Visual Studio",
+        "C#",
+        "React",
+        "Azure",
+        "ASP.NET"
+      ],
+      "niceToHaveSkills": null,
+      "workplaceType": "remote",
+      "workingTime": "full_time",
+      "experienceLevel": "mid",
+      "employmentTypes": [
+        {
+          "from": 10000,
+          "to": 17000,
+          "currency": "pln",
+          "type": "permanent",
+          "unit": "month",
+          "gross": true
+        },
+        {
+          "from": 10000,
+          "to": 17000,
+          "currency": "pln",
+          "type": "b2b",
+          "unit": "month",
+          "gross": false
+        }
+      ],
+      "categoryId": 1,
+      "city": "Jelenia Góra",
+      "companyName": "CodeTwo sp. z o.o. sp. k.",
+      "publishedAt": "2026-06-10T13:00:20.203Z",
+      "expiredAt": "2026-07-10T12:20:48.384Z"
+    },
+    {
+      "guid": "65b3a746-fe9f-40c1-b41d-509d69808008",
+      "slug": "bright-inventions-senior-fullstack-developer-gdansk-javascript-403ad344",
+      "title": "Senior Fullstack Developer",
+      "requiredSkills": [
+        "React",
+        "Node.js",
+        "JavaScript",
+        "TypeScript",
+        "SQL",
+        "AWS",
+        "NoSQL",
+        "nestJS",
+        "Next.js",
+        "Databases"
+      ],
+      "niceToHaveSkills": null,
+      "workplaceType": "hybrid",
+      "workingTime": "full_time",
+      "experienceLevel": "senior",
+      "employmentTypes": [
+        {
+          "from": 25000,
+          "to": 28000,
+          "currency": "pln",
+          "type": "b2b",
+          "unit": "month",
+          "gross": false
+        },
+        {
+          "from": 20750,
+          "to": 23240,
+          "currency": "pln",
+          "type": "permanent",
+          "unit": "month",
+          "gross": true
+        }
+      ],
+      "categoryId": 1,
+      "city": "Gdańsk",
+      "companyName": "Framna (formerly Bright Inventions)",
+      "publishedAt": "2026-06-10T13:00:11.795Z",
+      "expiredAt": "2026-08-04T21:59:59.999Z"
+    },
+    {
+      "guid": "34c49496-06be-439c-b91f-ddd5478a547b",
+      "slug": "emagine-polska-senior-frontend-engineer--copenhagen-javascript",
+      "title": "Senior Frontend Engineer ",
+      "requiredSkills": null,
+      "niceToHaveSkills": null,
+      "workplaceType": "office",
+      "workingTime": "full_time",
+      "experienceLevel": "senior",
+      "employmentTypes": [
+        {
+          "from": null,
+          "to": null,
+          "currency": "pln",
+          "type": "any",
+          "unit": "month",
+          "gross": false
+        }
+      ],
+      "categoryId": 1,
+      "city": "Copenhagen",
+      "companyName": "emagine Polska",
+      "publishedAt": "2026-06-10T17:00:06.088Z",
+      "expiredAt": "2026-08-19T17:10:21.912Z"
+    }
+  ],
+  "meta": {
+    "from": 0,
+    "prev": {
+      "cursor": null,
+      "itemsCount": 20
+    },
+    "next": {
+      "cursor": 20,
+      "itemsCount": 20
+    },
+    "totalItems": 484
+  }
+}

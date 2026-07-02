@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:job_listing="https://wpjobmanager.com/job_feed/1.0">
+<channel>
+  <title>Jobspresso</title>
+  <item>
+    <title>Full Stack Engineer</title>
+    <link>https://jobspresso.co/job/globex-full-stack/</link>
+    <dc:creator><![CDATA[Globex<br>⚲&nbsp;Worldwide]]></dc:creator>
+    <pubDate>Wed, 17 Jun 2026 13:37:51 +0000</pubDate>
+    <guid isPermaLink="false">https://jobspresso.co/?post_type=job_listing&#038;p=1</guid>
+    <description><![CDATA[Node and React]]></description>
+    <content:encoded><![CDATA[<p>Work with <strong>Node.js</strong>, React, AWS.</p>]]></content:encoded>
+    <job_listing:company>Globex</job_listing:company>
+    <job_listing:location>Worldwide</job_listing:location>
+    <job_listing:job_type>Full Time</job_listing:job_type>
+    <job_listing:job_category>Software Development</job_listing:job_category>
+  </item>
+  <item>
+    <title>DevOps Engineer</title>
+    <link>https://jobspresso.co/job/momentum-devops/</link>
+    <dc:creator><![CDATA[Momentum<br>⚲&nbsp;USA - East Coast]]></dc:creator>
+    <pubDate>Tue, 16 Jun 2026 13:37:51 +0000</pubDate>
+    <guid isPermaLink="false">https://jobspresso.co/?post_type=job_listing&#038;p=2</guid>
+    <description><![CDATA[Kubernetes role]]></description>
+    <content:encoded><![CDATA[<p>Kubernetes, Terraform, AWS.</p>]]></content:encoded>
+    <job_listing:location>USA</job_listing:location>
+    <job_listing:job_type>Full Time</job_listing:job_type>
+    <job_listing:job_category>DevOps</job_listing:job_category>
+  </item>
+</channel>
+</rss>

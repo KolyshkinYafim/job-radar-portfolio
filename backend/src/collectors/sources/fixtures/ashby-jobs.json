@@ -1,0 +1,57 @@
+{
+  "apiVersion": "1",
+  "jobs": [
+    {
+      "id": "a1",
+      "title": " Security Engineer, Cloud",
+      "department": "Engineering",
+      "team": "Backend",
+      "employmentType": "FullTime",
+      "location": "Remote - US",
+      "isRemote": true,
+      "isListed": true,
+      "workplaceType": "Remote",
+      "jobUrl": "https://jobs.ashbyhq.com/fernbank-labs/a1",
+      "applyUrl": "https://jobs.ashbyhq.com/fernbank-labs/a1/application",
+      "descriptionPlain": "Work on cloud security with Go and Kubernetes.",
+      "publishedAt": "2026-06-07T17:12:35.753+00:00",
+      "address": { "postalAddress": { "addressCountry": "USA" } }
+    },
+    {
+      "id": "a2",
+      "title": "Office Manager",
+      "department": "Operations",
+      "employmentType": "FullTime",
+      "location": "New York, NY (HQ)",
+      "isRemote": false,
+      "isListed": true,
+      "workplaceType": "Onsite",
+      "jobUrl": "https://jobs.ashbyhq.com/fernbank-labs/a2",
+      "descriptionPlain": "On-site role.",
+      "publishedAt": "2026-06-06T17:12:35.753+00:00",
+      "address": { "postalAddress": { "addressCountry": "USA" } }
+    },
+    {
+      "id": "a3",
+      "title": "Backend Engineer",
+      "department": "Engineering",
+      "employmentType": "FullTime",
+      "location": "Remote - Europe",
+      "isRemote": true,
+      "isListed": true,
+      "workplaceType": "Remote",
+      "jobUrl": "https://jobs.ashbyhq.com/fernbank-labs/a3",
+      "descriptionPlain": "Build APIs in TypeScript.",
+      "publishedAt": "2026-06-05T17:12:35.753+00:00",
+      "address": { "postalAddress": { "addressCountry": "Germany" } }
+    },
+    {
+      "id": "a4",
+      "title": "Hidden Draft",
+      "isListed": false,
+      "isRemote": true,
+      "workplaceType": "Remote",
+      "jobUrl": "https://jobs.ashbyhq.com/fernbank-labs/a4"
+    }
+  ]
+}

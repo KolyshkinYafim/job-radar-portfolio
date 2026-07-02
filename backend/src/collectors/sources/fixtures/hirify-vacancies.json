@@ -1,0 +1,92 @@
+{
+  "current_page": 1,
+  "last_page": 7114,
+  "total": 106709,
+  "data": [
+    {
+      "id": 649274,
+      "title": "Senior Backend Engineer",
+      "slug": "649274-senior-backend-engineer",
+      "company_title": "%hirify_global%",
+      "work_format": ["remote", "hybrid"],
+      "work_type": "fulltime",
+      "tags": [
+        { "id": 270, "name": "api" },
+        { "id": 632, "name": "databases" },
+        { "id": 15549, "name": "go" }
+      ],
+      "salary": {
+        "id": 230847,
+        "vacancy_id": 649274,
+        "currency": "USD",
+        "min": 73820,
+        "max": 96100,
+        "salary_in_usd": 84960
+      },
+      "specializations": [
+        { "id": 4, "code": "backend_dev", "name": "Бэкенд", "name_en": "Backend" }
+      ],
+      "grades": [
+        { "id": 4, "name": "senior" }
+      ],
+      "regions": [{ "id": 24, "code": "romania", "name": null, "name_en": null }],
+      "relocation_regions": [],
+      "created_at": "2026-06-15T14:07:23.000000Z",
+      "source": "scout"
+    },
+    {
+      "id": 649270,
+      "title": "Старший менеджер сектора видео- и фотосъёмки",
+      "slug": "649270-starshij-menedzher",
+      "company_title": "Третьяковская галерея",
+      "work_format": ["onsite"],
+      "work_type": "fulltime",
+      "tags": [
+        { "id": 33, "name": "content creation" },
+        { "id": 694, "name": "management" }
+      ],
+      "salary": null,
+      "specializations": [
+        {
+          "id": 25,
+          "code": "video_production",
+          "name": "Видеопроизводство",
+          "name_en": "Video Production"
+        }
+      ],
+      "grades": [{ "id": 4, "name": "Старший" }],
+      "regions": [{ "id": 1, "code": "russia", "name": null, "name_en": null }],
+      "relocation_regions": [],
+      "created_at": "2026-06-15T14:06:04.000000Z",
+      "source": "telegram"
+    },
+    {
+      "id": 649268,
+      "title": "Middle Frontend Developer",
+      "slug": "649268-middle-frontend-developer",
+      "company_title": "Acme Corp",
+      "work_format": ["remote"],
+      "work_type": "fulltime",
+      "tags": [
+        { "id": 2014, "name": "react" },
+        { "id": 99, "name": "typescript" }
+      ],
+      "salary": {
+        "id": 230844,
+        "vacancy_id": 649268,
+        "currency": "KZT",
+        "min": 800000,
+        "max": null,
+        "salary_in_usd": 1637
+      },
+      "specializations": [
+        { "id": 7, "code": "frontend_dev", "name": "Фронтенд", "name_en": "Frontend" }
+      ],
+      "grades": [{ "id": 3, "name": "middle" }],
+      "regions": [],
+      "relocation_regions": [],
+      "created_at": "2026-06-15T14:04:57.000000Z",
+      "source": "scout"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# Dependencies
+node_modules
+backend/node_modules
+client/node_modules
+
+# Build output
+dist
+backend/dist
+client/dist
+
+# Environment — never commit
+.env
+backend/.env
+
+# Coverage
+coverage
+backend/coverage
+
+# NestJS incremental build
+*.tsbuildinfo
+
+# Prisma generated
+generated/prisma
